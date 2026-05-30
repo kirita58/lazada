@@ -168,8 +168,7 @@
                     <div v-if="product.kichThuocCoSan && product.kichThuocCoSan.length" class="d-flex flex-wrap gap-1">
                       <span v-for="s in product.kichThuocCoSan" :key="s" class="size-chip">{{ s }}</span>
                     </div>
-                                    <h6 class="product-name text-dark mb-0 mt-1" style="font-size:1.1rem; line-height:1.4;">{{ product.tenSanPham }}</h6>
-
+                      <h6 class="product-name text-dark mb-0 mt-1" style="font-size:1.1rem; line-height:1.4;">{{ product.tenSanPham }}</h6>
                   </div>
                 </div>
               </div>
